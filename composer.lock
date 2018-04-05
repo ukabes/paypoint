@@ -1,0 +1,128 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e27604aa80d4a79af5f4d4dc91e63495",
+    "packages": [
+        {
+            "name": "altorouter/altorouter",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dannyvankooten/AltoRouter.git",
+                "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/09d9d946c546bae6d22a7654cdb3b825ffda54b4",
+                "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "AltoRouter.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Danny van Kooten",
+                    "email": "dannyvankooten@gmail.com",
+                    "homepage": "http://dannyvankooten.com/"
+                },
+                {
+                    "name": "Koen Punt",
+                    "homepage": "https://github.com/koenpunt"
+                },
+                {
+                    "name": "niahoo",
+                    "homepage": "https://github.com/niahoo"
+                }
+            ],
+            "description": "A lightning fast router for PHP",
+            "homepage": "https://github.com/dannyvankooten/AltoRouter",
+            "keywords": [
+                "lightweight",
+                "router",
+                "routing"
+            ],
+            "time": "2014-04-16T09:44:40+00:00"
+        },
+        {
+            "name": "catfan/medoo",
+            "version": "v1.5.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/catfan/Medoo.git",
+                "reference": "f77a93f72864e892c99d1033b8733e5da8fb0b3b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/catfan/Medoo/zipball/f77a93f72864e892c99d1033b8733e5da8fb0b3b",
+                "reference": "f77a93f72864e892c99d1033b8733e5da8fb0b3b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "php": ">=5.4"
+            },
+            "suggest": {
+                "ext-pdo_dblib": "For MSSQL or Sybase database on Linux/UNIX platform",
+                "ext-pdo_mysql": "For MySQL or MariaDB database",
+                "ext-pdo_oci": "For Oracle database",
+                "ext-pdo_oci8": "For Oracle version 8 database",
+                "ext-pdo_pqsql": "For PostgreSQL database",
+                "ext-pdo_sqlite": "For SQLite database",
+                "ext-pdo_sqlsrv": "For MSSQL database"
+            },
+            "type": "framework",
+            "autoload": {
+                "psr-4": {
+                    "Medoo\\": "/src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Angel Lai",
+                    "email": "angel@catfan.me"
+                }
+            ],
+            "description": "The lightest PHP database framework to accelerate development",
+            "homepage": "https://medoo.in",
+            "keywords": [
+                "database",
+                "lightweight",
+                "mariadb",
+                "mssql",
+                "mysql",
+                "oracle",
+                "php framework",
+                "postgresql",
+                "sql",
+                "sqlite"
+            ],
+            "time": "2018-03-26T17:54:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
